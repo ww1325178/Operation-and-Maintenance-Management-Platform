@@ -10,7 +10,7 @@ import (
 
 // DefaultToken 内置共享令牌；编译时可用
 // -ldflags "-X ops-platform/internal/agent.DefaultToken=XXX" 覆盖。
-var DefaultToken = "45D9A76102BEF3C8"
+var DefaultToken = "填写一个自己的token"
 
 // BuildServerURL 把用户输入的 IP 或 IP:端口 构造成完整 ws:// 地址。
 // 例如 "192.168.1.100" -> "ws://192.168.1.100:8080/ws/agent"
