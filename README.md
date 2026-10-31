@@ -106,14 +106,6 @@ agent.exe -install -server ws://服务器:8080/ws/agent -token 令牌
 | `OPS_ADMIN_USER` / `OPS_ADMIN_PASSWORD` | `admin` / `admin123` | 初始管理员 |
 | `OPS_HEARTBEAT_TIMEOUT_SEC` | `90` | 心跳超时判离线（秒） |
 
-## 实现状态
-
-- [x] Phase 0：骨架、DB 迁移、配置
-- [x] Phase 1：Agent 采集 + 心跳上报
-- [x] Phase 2：设备管理与在线状态 API
-- [x] Phase 3：Web 仪表盘
-- [x] Phase 4：远程查看/接管（纯 Go VNC 引擎 + noVNC + 会话审计，v1）
-- [ ] Phase 5：性能/稳定性打磨、备份、部署文档
 
 ## 已知限制（v1）
 
