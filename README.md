@@ -103,7 +103,7 @@ agent.exe -install -server ws://服务器:8080/ws/agent -token 令牌
 | `OPS_DB_URL` | `postgres://postgres:postgres@localhost:5432/opsplatform?sslmode=disable` | PostgreSQL 连接串 |
 | `OPS_JWT_SECRET` | dev 值 | JWT 签名密钥，生产必须改 |
 | `OPS_AGENT_TOKEN` | 空（拒绝连接） | Agent 共享令牌，生产必须设 |
-| `OPS_ADMIN_USER` / `OPS_ADMIN_PASSWORD` | `admin` / `admin123` | 初始管理员 |
+| `OPS_ADMIN_USER` / `OPS_ADMIN_PASSWORD` | `你的user` / `你的密码` | 初始管理员 |
 | `OPS_HEARTBEAT_TIMEOUT_SEC` | `90` | 心跳超时判离线（秒） |
 
 
