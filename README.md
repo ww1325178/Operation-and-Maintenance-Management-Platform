@@ -121,3 +121,5 @@ agent.exe -install -server ws://服务器:8080/ws/agent -token 令牌
 - 无剪贴板同步；VNC 握手无密码（靠回环端口 + 随机会话 token + 管理员 JWT + 审计兜底）
 - 屏幕采集用 GDI BitBlt，抓不到 UAC 安全桌面 / 硬件加速受保护内容
 - 隧道与中继层已与引擎解耦，后续可按需换成 UltraVNC/TightVNC 引擎
+- 仅作为科研使用，严禁非法用途
+- 因涉及到网络安全，固未对agent做任何套壳、防杀等
