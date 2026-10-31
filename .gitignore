@@ -1,0 +1,15 @@
+# Go build outputs
+*.exe
+bin/
+dist/
+
+# Node
+web/node_modules/
+web/dist/
+
+# Local env / secrets
+.env
+*.local
+
+# Logs
+*.log
