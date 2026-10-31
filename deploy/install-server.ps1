@@ -5,7 +5,7 @@ param(
     [Parameter(Mandatory = $true)][string]$DbUrl,
     [Parameter(Mandatory = $true)][string]$AgentToken,
     [string]$Port = "8080",
-    [string]$AdminPassword = "admin123"
+    [string]$AdminPassword = "你的数据库密码"
 )
 
 $ErrorActionPreference = "Stop"
