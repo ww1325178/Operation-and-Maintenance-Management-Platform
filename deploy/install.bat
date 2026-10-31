@@ -8,7 +8,7 @@ if not exist "agent.exe" (
     exit /b 1
 )
 
-set TOKEN=45D9A76102BEF3C8
+set TOKEN=请自己编一个token
 set /p ADDR=Server address (ws://IP:port/ws/agent):
 
 if "%ADDR%"=="" (
