@@ -25,8 +25,8 @@ func Load() Config {
 		DBURL:               "postgres://postgres:postgres@localhost:5432/opsplatform?sslmode=disable",
 		JWTSecret:           "dev-insecure-secret-change-me",
 		AgentToken:          "",
-		AdminUser:           "admin",
-		AdminPassword:       "admin123",
+		AdminUser:           "你的数据库user",
+		AdminPassword:       "你的数据库密码",
 		HeartbeatTimeoutSec: 90,
 	}
 
